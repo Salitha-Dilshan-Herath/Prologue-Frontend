@@ -1,0 +1,20 @@
+<div class="main-div">
+  <ngx-spinner [fullScreen]="true" type="ball-clip-rotate-multiple" size="medium">
+    <p class="loading">Please Wait...</p>
+  </ngx-spinner>
+  <mat-card class="card-back">
+      <mat-card-content style="align-items: center;">
+        <form style="align-content: center;">
+          <div  class="h1" > <img src="assets/logo.png" class="login-icon"> </div>
+          <mat-form-field  class="textField">
+            <input #emailInput name="email" matInput placeholder="Email" [(ngModel)]="email" required>
+          </mat-form-field>
+          <mat-form-field  class="textField">
+            <input #pwInput  name="password" matInput type="password" placeholder="Password"  [(ngModel)]="password"  required>
+          </mat-form-field>
+          <button mat-raised-button color="primary" class="login-btn" (click)="onLoginClick()">Login</button>
+          
+      </form>
+      </mat-card-content>
+  </mat-card>
+</div>

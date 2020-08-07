@@ -1,0 +1,60 @@
+<mat-drawer-container class="main-content-view">
+  <mat-drawer mode="side" opened class="sidebar">
+    <mat-nav-list class="content-list ">
+
+      <div class="sidebar-icon">  </div>
+
+      <mat-divider></mat-divider>
+
+      <div class="sidebar-item">
+
+        <a mat-list-item routerLink="dashboard" class="sidebar-text">
+          <mat-icon class="mat-icon-side-bar">online_prediction</mat-icon> Live Stream
+        </a>
+
+      </div>
+
+
+      <mat-divider></mat-divider>
+
+      
+      <div class="sidebar-item">
+
+        <a mat-list-item routerLink="blockedips" class="sidebar-text">
+          <mat-icon class="mat-icon-side-bar">brightness_high</mat-icon> Settings
+        </a>
+
+      </div>
+
+      <mat-divider></mat-divider>
+
+      <div class="sidebar-item">
+
+        <a mat-list-item routerLink="support" class="sidebar-text">
+          <mat-icon class="mat-icon-side-bar">person_search</mat-icon> Support
+        </a>
+
+      </div>
+     
+      <mat-divider></mat-divider>
+      <div class="sidebar-free"></div>
+
+      <mat-divider></mat-divider>
+      
+      <div class="sidebar-item">
+
+        <a mat-list-item (click)="logout()" class="sidebar-text">
+          <mat-icon class="mat-icon-side-bar">power_settings_new</mat-icon> Logout
+        </a>
+
+      </div>
+
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="content-view">
+      <router-outlet>
+      </router-outlet>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>

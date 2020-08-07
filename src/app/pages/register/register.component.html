@@ -1,0 +1,18 @@
+<div class="main-div">
+  <mat-card style="width: 15%;height: 30%;align-content: center;">
+      <mat-card-content style="align-items: center;">
+        <form style="align-content: center;">
+          <h2  style="color: rgb(89, 22, 121);margin-top: 20px;margin-left: 20px;">Create New Account</h2>
+          <mat-form-field class="full-width-input" style="margin-left: 20px;width: 75%;">
+            <input #emailInput name="email"  matInput type="email" placeholder="Email" [(ngModel)]="email" required>
+          </mat-form-field>
+          <mat-form-field class="full-width-input" style="margin-left: 20px;width: 75%;">
+            <input #pwInput  name="password" matInput type="password" placeholder="Password"  [(ngModel)]="password"  required>
+          </mat-form-field>
+          <button mat-raised-button color="primary" style="margin-left: 60%;margin-top: 15px;" (click)="onRegisterClick()">Sign Up</button>
+          <p style="color: rgb(89, 22, 121);margin-left: 20px;margin-top: 15px;">Already Registered ? <a routerLink="/login"> Login </a> </p> 
+      </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+  }
+form{
+  padding-bottom: 30px;
+}
+ 
+.mat-form-field {
+  font-size: 13px;
+  width: 100%;
+}
+
+.bt2{
+  background:  rgb(4,54,89); 
+  color: white;
+  width: 10%;
+  margin-right: 10px;
+  
+}
+.date-form{
+  display: flex;
+}
+.slider-cs {
+  margin: 10px;
+}
+.bt1{
+  background:  rgb(4,54,89); 
+  color: white;
+  width: 10%;
+  margin-right: 10px;
+}
+.date-form_item{
+  flex-basis: 250px;
+  margin-right: 15px;
+}
+
+.btn {
+  width: 10%;
+    margin-right: 10px;
+}
+
+.loading{
+  color: white;
+  padding-top: 50px;
+}

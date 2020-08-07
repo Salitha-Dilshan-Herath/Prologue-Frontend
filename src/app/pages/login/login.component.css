@@ -1,0 +1,68 @@
+
+
+  .main-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("src/assets/bg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 100vw 100vh;
+  }
+
+  .card-back {
+    background-color: rgb(255, 255, 255); /* Fallback color */
+    width: 30vw;
+    height: 40vh;
+    align-content: center;
+    border-style: solid;
+    border-color: rgb(4,54,89);
+    border-width: 2px;
+    border-radius: 5px;
+    
+  }
+
+  .textField {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    
+  }
+
+  .login-btn {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+  }
+
+  .mat-button, .mat-raised-button{
+    background-color:rgb(4,54,89);
+  
+} 
+
+.h1 {
+  color: rgb(4,54,89); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.loading{
+  color: white;
+  padding-top: 50px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 200%;
+}
+
+.login-icon {
+  width: 4vw;
+  height: 9vh;
+
+}
